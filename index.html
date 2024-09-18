@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group7 Members</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Group7 Members</h1>
+    </div>
+    
+    <div class="members-container">
+        <div class="member">
+            <img src="https://assets.onecompiler.app/42s492gk3/42s48v9zf/alynna.jpg" alt="Alynna Mae Sanchez">
+            <h2>Alynna Mae Sanchez</h2>
+            <h3>Member 1</h3>
+            <a href="https://www.facebook.com/alynnamae.sanchez" target="_blank">Facebook</a>
+        </div>
+        <div class="member">
+            <img src="https://assets.onecompiler.app/42s492gk3/42s48v9zf/justine.jpg" alt="Justine Mae Anonuevo">
+            <h2>Justine Mae Anonuevo</h2>
+            <h3>Member 2</h3>
+            <a href="https://www.facebook.com/justine26.anonuevo" target="_blank">Facebook</a>
+        </div>
+        <div class="member">
+            <img src="https://assets.onecompiler.app/42s492gk3/42s48v9zf/karen.jpg" alt="Karen Claire Abdon">
+            <h2>Karen Claire Abdon</h2>
+            <h3>Member 3</h3>
+            <a href="https://www.facebook.com/karenclaire.abdon" target="_blank">Facebook</a>
+        </div>    
+        <div class="member">
+            <img src="https://assets.onecompiler.app/42s492gk3/42s48v9zf/mikky.jpg" alt="Mikky Tolentino">
+            <h2>Mikky Tolentino</h2>
+            <h3>Member 4</h3>
+            <a href="https://www.facebook.com/mikky.tolentino28" target="_blank">Facebook</a>
+        </div>
+        <div class="member">
+            <img src="https://assets.onecompiler.app/42s492gk3/42s48v9zf/rom.jpg" alt="Romelyn Samillano">
+            <h2>Romelyn Samillano</h2>
+            <h3>Member 5</h3>
+            <a href="https://www.facebook.com/romelyn.samillano1994" target="_blank">Facebook</a>
+        </div>
+    </div>
+
+    <h1>Submit Name and Age</h1>
+
+    <div class="forms-container">
+        <div class="form-group">
+            <h2>Submit via GET</h2>
+            <form action="process.php" method="GET">
+                <label for="get-name">Name:</label>
+                <input type="text" id="get-name" name="name" required>
+                <label for="get-age">Age:</label>
+                <input type="number" id="get-age" name="age" required min="0">
+                <input type="submit" value="Submit via GET">
+            </form>
+        </div>
+        <div class="form-group">
+            <h2>Submit via POST</h2>
+            <form action="process.php" method="POST">
+                <label for="post-name">Name:</label>
+                <input type="text" id="post-name" name="name" required>
+                <label for="post-age">Age:</label>
+                <input type="number" id="post-age" name="age" required min="0">
+                <input type="submit" value="Submit via POST">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
